@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		AC47A2DE2181FC2400230014 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC47A2DD2181FC2400230014 /* AppDelegate.swift */; };
-		AC47A2E02181FC2400230014 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC47A2DF2181FC2400230014 /* ViewController.swift */; };
+		AC47A2E02181FC2400230014 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC47A2DF2181FC2400230014 /* LandingViewController.swift */; };
 		AC47A2E32181FC2400230014 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC47A2E12181FC2400230014 /* Main.storyboard */; };
 		AC47A2E62181FC2400230014 /* MutualMobileCodingTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC47A2E42181FC2400230014 /* MutualMobileCodingTest.xcdatamodeld */; };
 		AC47A2E82181FC3200230014 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC47A2E72181FC3200230014 /* Assets.xcassets */; };
 		AC47A2EB2181FC3200230014 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC47A2E92181FC3200230014 /* LaunchScreen.storyboard */; };
 		AC47A2F62181FC3300230014 /* MutualMobileCodingTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC47A2F52181FC3300230014 /* MutualMobileCodingTestTests.swift */; };
+		AC47A3062182073400230014 /* StringConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC47A3052182073400230014 /* StringConstants.swift */; };
+		AC47A3082182090D00230014 /* TicTacToeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC47A3072182090D00230014 /* TicTacToeCell.swift */; };
+		AC47A30B218218D800230014 /* AppUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC47A30A218218D800230014 /* AppUtility.swift */; };
+		AC47A30E21822C0900230014 /* LandingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC47A30D21822C0900230014 /* LandingViewModel.swift */; };
+		ACF0B329218241EB00D00CDB /* GameLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF0B328218241EB00D00CDB /* GameLogic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +34,7 @@
 /* Begin PBXFileReference section */
 		AC47A2DA2181FC2400230014 /* MutualMobileCodingTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MutualMobileCodingTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC47A2DD2181FC2400230014 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AC47A2DF2181FC2400230014 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC47A2DF2181FC2400230014 /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
 		AC47A2E22181FC2400230014 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC47A2E52181FC2400230014 /* MutualMobileCodingTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MutualMobileCodingTest.xcdatamodel; sourceTree = "<group>"; };
 		AC47A2E72181FC3200230014 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +43,11 @@
 		AC47A2F12181FC3300230014 /* MutualMobileCodingTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MutualMobileCodingTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC47A2F52181FC3300230014 /* MutualMobileCodingTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MutualMobileCodingTestTests.swift; sourceTree = "<group>"; };
 		AC47A2F72181FC3300230014 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC47A3052182073400230014 /* StringConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringConstants.swift; sourceTree = "<group>"; };
+		AC47A3072182090D00230014 /* TicTacToeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeCell.swift; sourceTree = "<group>"; };
+		AC47A30A218218D800230014 /* AppUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUtility.swift; sourceTree = "<group>"; };
+		AC47A30D21822C0900230014 /* LandingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewModel.swift; sourceTree = "<group>"; };
+		ACF0B328218241EB00D00CDB /* GameLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLogic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +89,10 @@
 		AC47A2DC2181FC2400230014 /* MutualMobileCodingTest */ = {
 			isa = PBXGroup;
 			children = (
+				AC47A303218206FE00230014 /* Core */,
+				ACF0B32A218241F400D00CDB /* BusinessLogic */,
+				AC47A300218206C900230014 /* Presentation Layer */,
 				AC47A2DD2181FC2400230014 /* AppDelegate.swift */,
-				AC47A2DF2181FC2400230014 /* ViewController.swift */,
 				AC47A2E12181FC2400230014 /* Main.storyboard */,
 				AC47A2E72181FC3200230014 /* Assets.xcassets */,
 				AC47A2E92181FC3200230014 /* LaunchScreen.storyboard */,
@@ -97,6 +109,73 @@
 				AC47A2F72181FC3300230014 /* Info.plist */,
 			);
 			path = MutualMobileCodingTestTests;
+			sourceTree = "<group>";
+		};
+		AC47A300218206C900230014 /* Presentation Layer */ = {
+			isa = PBXGroup;
+			children = (
+				AC47A30C21822BF800230014 /* ViewModel */,
+				AC47A302218206E900230014 /* Cells */,
+				AC47A301218206DF00230014 /* ViewControllers */,
+			);
+			path = "Presentation Layer";
+			sourceTree = "<group>";
+		};
+		AC47A301218206DF00230014 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AC47A2DF2181FC2400230014 /* LandingViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AC47A302218206E900230014 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				AC47A3072182090D00230014 /* TicTacToeCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		AC47A303218206FE00230014 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				AC47A309218218C100230014 /* Utilities */,
+				AC47A3042182070500230014 /* AppConstants */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		AC47A3042182070500230014 /* AppConstants */ = {
+			isa = PBXGroup;
+			children = (
+				AC47A3052182073400230014 /* StringConstants.swift */,
+			);
+			path = AppConstants;
+			sourceTree = "<group>";
+		};
+		AC47A309218218C100230014 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				AC47A30A218218D800230014 /* AppUtility.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		AC47A30C21822BF800230014 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AC47A30D21822C0900230014 /* LandingViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		ACF0B32A218241F400D00CDB /* BusinessLogic */ = {
+			isa = PBXGroup;
+			children = (
+				ACF0B328218241EB00D00CDB /* GameLogic.swift */,
+			);
+			path = BusinessLogic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,8 +279,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC47A2E02181FC2400230014 /* ViewController.swift in Sources */,
+				AC47A3082182090D00230014 /* TicTacToeCell.swift in Sources */,
+				AC47A3062182073400230014 /* StringConstants.swift in Sources */,
+				ACF0B329218241EB00D00CDB /* GameLogic.swift in Sources */,
+				AC47A30B218218D800230014 /* AppUtility.swift in Sources */,
+				AC47A2E02181FC2400230014 /* LandingViewController.swift in Sources */,
 				AC47A2DE2181FC2400230014 /* AppDelegate.swift in Sources */,
+				AC47A30E21822C0900230014 /* LandingViewModel.swift in Sources */,
 				AC47A2E62181FC2400230014 /* MutualMobileCodingTest.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
