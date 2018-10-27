@@ -1,6 +1,6 @@
 Tic Tac Toe Game -
   1. Intially user is asked to enter the size of grid 
-  2. There are two players playing this game from same device i.e first player with cross tag and second player with zero tag
+  2. Two players playing this game from same device i.e first player with cross tag and second player with zero tag
   3. As soon someone wins alert with message will come
   
   
