@@ -1,0 +1,26 @@
+Tic Tac Toe Game -
+  1. Intially user is asked to enter the size of grid 
+  2. There are two players playing this game from same device i.e first player with cross tag and second player with zero tag
+  3. As soon someone wins alert with message will come
+  
+  
+Techincal Stack -
+   1. Platform - ios
+   2. Language - swift 4.2
+   
+   Iphone potrait and ipad all screen size and split 
+   
+
+Techincal Approach: 
+   1. Used UICollectionView to draw game board grid
+   2. Dyanamically adjustable game board size according to screen size.
+   
+   3. Game logic - Taken a game state array of 2n+2 size intially initalise all to zero value
+                   for eg for size 3*3 game state will be of size 8 [row1, row2, row3, col1, col2, col3, diagnol1, diagnol2]
+                   On every tap on piece of grid didSelectAtIndexpath is called 
+                   first get rowIndex and ColIndex of that piece 
+                   then for every cross player turn add +1 and -1 for zero player
+                   Once at any index of game state if abs(value) becomes equal of grid size then show game result 
+                   
+                   
+   
