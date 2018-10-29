@@ -69,7 +69,7 @@ class LandingViewController: UIViewController {
 
     func resetGameState() {
         gameLogic.turnCount = 0
-        gameLogic.stateOfGame?.removeAll()
+        gameLogic.stateOfGame.removeAll()
         gameLogic.setGameState(gridNumber: gridSize)
     }
 }
